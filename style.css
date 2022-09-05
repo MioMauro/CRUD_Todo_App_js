@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(197, 159, 233);
+}
+
+.app{
+    margin:0 auto;
+    margin-top: 60px;
+    width: 300px;
+    height: 500px;
+    border: 5px solid rgb(43, 226, 67);
+    border-radius: 8px;
+    padding: 15px;
+    background-color: aliceblue;
+    overflow-y: scroll;
+}
+
+.app::-webkit-scrollbar { width: 0 !important }
+
+#addNew{
+    display: flex;
+    background-color: rgb(143, 228, 154);
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fa-plus{
+    background-color: aliceblue;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+#tasks{
+    display: grid;
+    gap: 14px;
+}
+
+#tasks div{
+    display: grid;
+    background-color: rgb(213, 202, 223);
+    border: 3px solid rgb(43, 226, 67);
+    padding: 5px;
+    border-radius: 6px;
+    gap: 4px;
+}
+
+.options{
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+}
+
+.options i{
+    cursor: pointer;
+}
+
+.modal-content{
+    background-color: rgb(143, 228, 154);
+}
+
+#msg{
+    color: brown;
+}
+
